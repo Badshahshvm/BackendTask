@@ -9,7 +9,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "cloudinary": "^2.5.1",
@@ -21,5 +20,6 @@
     "mongoose": "^8.8.2",
     "nodemon": "^3.1.7",
     "socket.io": "^4.8.1"
-  }
+  },
+  "description": ""
 }

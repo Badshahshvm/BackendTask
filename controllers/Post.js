@@ -16,6 +16,8 @@ const createPost = async (req, res) => {
               try {
 
 
+
+
                             const uploadedImage = await cloudinary.uploader.upload(req.files.image.tempFilePath)
                             const token = req.headers.authorization.split(" ")[1];
                             const verifyUser = await jwt.verify(token, 'shivam 123');
