@@ -36,6 +36,9 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
+app.get("/", (req, res) => {
+  res.send("<h2>Welcome to the Social Media API App</h2>");
+});
 app.use("/api/v1/comment", commentRoutes);
 app.use("/api/v1/post", postRoutes);
 app.use("/api/v1/user", userRoutes);
